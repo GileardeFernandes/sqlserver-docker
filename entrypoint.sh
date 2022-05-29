@@ -1,0 +1,1 @@
+./var/opt/import-data.sh & /opt/mssql/bin/sqlservr
