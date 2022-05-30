@@ -227,7 +227,7 @@ Se tudo deu certo, quando digitarmos o comando a baixo, termos a seguinte saída
  ``` bash
 docker-compose ps
 ```
-![Containers rodando](img/docker-compose-ps.png)
+![Containers rodando](img/docker-compose-ps-list.png)
 
 
 ### Acessando o banco de dados com mssql management studio
