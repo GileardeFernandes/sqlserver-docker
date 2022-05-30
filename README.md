@@ -222,3 +222,36 @@ o comando a cima utiliza o docker-compose para subir um serviço contendo nosso 
 * up inicia a execução do nosso arquivo docker-compose
 * -d executa o comando e libera o terminal, sem o -d, o terminal ficaria preso no processo e quando saisemos ele mataria nosso serviço.
 
+Se tudo deu certo, quando digitarmos o comando a baixo, termos a seguinte saída mostrando dois container em funcionamento.
+
+ ``` bash
+docker-compose ps
+```
+![Containers rodando](img/docker-compose-ps.png)
+
+
+### Acessando o banco de dados com mssql management studio
+
+Para acessar o banco, podemos utilizar varias ferramentas como DBeaver, mssql management studio ou dbtool60, nesse caso vou utilizar o mssql. 
+
+dados:
+* server: localhost
+* login: sa
+* password: Ps@#1346
+
+ ![login no mssql](img/login_localhost.png)
+
+ Caso não tenha sucesso para atenticar, mude o servivor para 
+ ::1, no WSL2, a porta 1433 está usando IP/TCPv6, o SSMS algumas vezes não consegue resolver o host local para o IP de loopback [::1]. (referencia https://jayfuconsulting.wordpress.com/2020/11/14/sql-server-2019-docker-wsl-2/)
+
+ se tudo certo, em dadabases estará a base smartqa.
+
+  ![Containers rodando](img/smartqa-db.png)
+
+  ##### Missão cumprida  🚀🚀🚀🚀
+
+<p align="center">
+  <a href="https://www.pixeon.com" target="blank"><img src="https://c.tenor.com/r5nBqoCL1dMAAAAd/goku-dragon-ball.gif"/></a>
+</p>
+
+
