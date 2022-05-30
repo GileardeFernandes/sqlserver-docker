@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.pixeon.com" target="blank"><img src="win+wsl2+docker+sql.jpg"/></a>
+  <a href="https://www.pixeon.com" target="blank"><img src="img/win+wsl2+docker+sql.jpg"/></a>
 </p>
 
 ## SQL SERVER NO DOCKER COM WSL2
