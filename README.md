@@ -211,7 +211,7 @@ Aperte a tecla `:`, digite `wq` para salvar/sair e pressione enter. Pronto, para
 ### Com nosso ambiente pronto, vamos finalmente iniciar nosso container docker.
 
 * Faça clone do repositório na sua máquina.
-* Faça uma cópia do dump smartqa.rar em Z:\Arquivos_Desenv\Micael\docker\smartqa.rar
+* Faça uma cópia do dump smartqa.rar em Z:\Arquivos_Desenv\Micael\docker\smartqa.rar e faça a extração do arquivio na pasta raiz do projeto
 * Na pasta raiz do projeto execute o seguinte comando no bash:
  
  ``` bash
