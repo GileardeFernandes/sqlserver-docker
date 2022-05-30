@@ -250,8 +250,6 @@ dados:
 
   ##### Missão cumprida  🚀🚀🚀🚀
 
-<p align="center">
-  <a href="https://www.pixeon.com" target="blank"><img src="https://c.tenor.com/r5nBqoCL1dMAAAAd/goku-dragon-ball.gif"/></a>
-</p>
+  ![Containers rodando](img/goku-dragon-ball.gif)
 
 
